@@ -11,7 +11,7 @@ let bird = {
     height: 24,
     frame: 0,
     gravity: 0.2,
-    lift: -10,
+    lift: -7,
     velocity: 0
 };
 
