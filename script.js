@@ -120,7 +120,7 @@ function draw() {
 
     pipes.forEach(pipe => {
         ctx.drawImage(pipeDownImg, pipe.x, pipe.y - pipeDownImg.height);
-        ctx.drawImage(pipeUpImg, pipe.x, pipe.y + 100);
+        ctx.drawImage(pipeUpImg, pipe.x, pipe.y + 120);
     });
 
     ctx.drawImage(baseImg, base.x, base.y, canvas.width, 112);
