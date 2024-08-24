@@ -1,1 +1,37 @@
 
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #70c5ce;
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background: url('background-day.png') repeat-x;
+    display: block;
+    border: 1px solid #000;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#scoreboard img {
+    width: 20px;
+    height: 30px;
+}
